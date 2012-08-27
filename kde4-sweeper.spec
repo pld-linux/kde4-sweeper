@@ -52,8 +52,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/calgebra
-%attr(755,root,root) %ghost %{_libdir}/libsweeper.so.?
-%attr(755,root,root) %{_libdir}/libsweeper.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libsweepergui.so.?
-%attr(755,root,root) %{_libdir}/libsweepergui.so.*.*.*
+%attr(755,root,root) %{_bindir}/sweeper
+%{_desktopdir}/kde4/sweeper.desktop
+%{_datadir}/apps/sweeper/sweeperui.rc
+%{_datadir}/dbus-1/interfaces/org.kde.sweeper.xml
+%{_docdir}/kde/HTML/en/sweeper
