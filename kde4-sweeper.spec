@@ -13,7 +13,7 @@ Release:	1
 License:	LGPL v2
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	46976161a1e39212fdf6d4b8f7ee7be5
+# Source0-md5:	641d23037ab894f6772c1bf3ebde89fd
 URL:		http://www.kde.org/
 BuildRequires:	automoc4
 BuildRequires:	cmake >= 2.6.3
