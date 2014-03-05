@@ -8,12 +8,12 @@
 Summary:	System cleaner
 Summary(pl.UTF-8):	sweeper
 Name:		kde4-sweeper
-Version:	4.12.2
+Version:	4.12.3
 Release:	1
 License:	LGPL v2
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	9417e4b8bada66eb7647d54f7a31a387
+# Source0-md5:	706db656317847ec31cb1ee9ba0abd0b
 URL:		http://www.kde.org/
 BuildRequires:	automoc4
 BuildRequires:	cmake >= 2.6.3
